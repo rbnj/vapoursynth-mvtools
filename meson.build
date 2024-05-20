@@ -73,7 +73,7 @@ host_cpu_family = host_machine.cpu_family()
 
 if host_cpu_family == 'x86'
   host_x86_bits = 32
-elif host_cpu_family == 'x86_64'
+else
   host_x86_bits = 64
 endif
 
